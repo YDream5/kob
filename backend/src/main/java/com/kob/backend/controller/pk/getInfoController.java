@@ -10,6 +10,8 @@ import java.util.Map;
  * @author wyj
  * @version 1.0
  */
+
+//这应该是创建的第三个文件，
 @RestController
 @RequestMapping("/pk/")
 public class getInfoController {

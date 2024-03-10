@@ -8,12 +8,15 @@ import org.springframework.web.bind.annotation.RestController;
  * @author wyj
  * @version 1.0
  */
+
+//发现只有restcontroller才能返回信息好像，controller是页面
 @RestController
 public class HelloController {
 
-    @RequestMapping("/hel")
+  @RequestMapping("/hello")
     public String hello(){
-        return "hel";
+ //   return "hel";
+  return "index.html";//好像返回不了html
 
     }
 }
